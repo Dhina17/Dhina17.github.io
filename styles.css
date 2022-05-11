@@ -35,10 +35,16 @@
     justify-content: space-evenly;
     align-items: center;
     padding: 1% 0%;
-    width: 30%;
+    width: 65%;
 }
 
 #ic {
     width: 60px;
     height: 60px;
+}
+
+@media only screen and (min-width: 992px) {
+    .social-media {
+        width: 30%;
+    }
 }
